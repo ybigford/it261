@@ -47,13 +47,60 @@
         <h3>Week 2</h3>
         <ul>
             <li><a href="var.php">var.php</a></li>
-            <li><a href="">var.php</a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-
+            <li><a href="">var2.php</a></li>
+            <li><a href="">currency-logic.php</a></li>
+            <li><a href="">currency.php</a></li>
+            <li><a href="">heredoc.php</a></li>
         </ul>
 
+        <h3>Week 3</h3>
+        <ul>
+            <li><a href="">date.php</a></li>
+            <li><a href="">foreach.php</a></li>
+            <li><a href="">forloop.php</a></li>
+            <li><a href="">if.php</a></li>
+            <li><a href="">switch.php</a></li>
+        </ul>
 
+        <h3>Week 4</h3>
+        <ul>
+            <li><a href="">adder.php</a></li>
+            <li><a href="">form1.php</a></li>
+            <li><a href="">form2.php</a></li>
+            <li><a href="">form3.php</a></li>
+            <li><a href="">form-arithmetic.php</a></li>
+            <li><a href="">celcius.php</a></li>
+        </ul>
+
+        <h3>Week 5</h3>
+        <ul>
+            <li><a href="">currency1.php</a></li>
+            <li><a href="">currency2.php</a></li>
+            <li><a href="">currency3.php</a></li>
+            <li><a href="">null.php</a></li>
+        </ul>
+
+        <h3>Week 6</h3>
+        <ul>
+            <li><a href="">form1.php</a></li>
+            <li><a href="">functions.php</a></li>
+            <li><a href="">implode.php</a></li>
+            <li><a href="">index.php</a></li>
+        </ul>
+
+        <h3>Week 7</h3>
+        <ul>
+            <li><a href="">pictures.php</a></li>
+            <li><a href="">random.php</a></li>
+            <li><a href="">strings.php</a></li>
+        </ul>
+
+        <h3>Week 8</h3>
+        <ul>
+            <li><a href="">people.php</a></li>
+        </ul>
+
+        <h3>Final Assignment</h3>
 
     </aside>
 
@@ -65,7 +112,7 @@
     <ul>
         <li>Copyright &copy;<script>document.write(new Date().getFullYear())</script> yBigford</li>
         <li>All Rights Reserved</li>
-        <li><a href="../index.php">Web Design by yBigford</a></li>
+        <li><a href="website/index.html">Web Design by yBigford</a></li>
         <li><a id="html-checker" href="#">HTML Validation</a></li>
         <li><a id="css-checker" href="#">CSS Validation</a></li>
         </ul>
