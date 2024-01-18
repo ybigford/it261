@@ -56,7 +56,7 @@
         <h3>Week 3</h3>
         <ul>
             <li><a href="">date.php</a></li>
-            <li><a href="">foreach.php</a></li>
+            <li><a href="">for-each.php</a></li>
             <li><a href="">forloop.php</a></li>
             <li><a href="">if.php</a></li>
             <li><a href="">switch.php</a></li>
