@@ -57,7 +57,7 @@
         <ul>
             <li><a href="">date.php</a></li>
             <li><a href="">for-each.php</a></li>
-            <li><a href="">forloop.php</a></li>
+            <li><a href="">for-loop.php</a></li>
             <li><a href="">if.php</a></li>
             <li><a href="">switch.php</a></li>
         </ul>
