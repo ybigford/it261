@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,7 @@
     <div id="wrapper">
         <nav>
             <ul>
-                <li><a href="">Switch</a></li>
+                <li><a href="website/daily.php">Switch</a></li>
                 <li><a href="">Troubleshoot</a></li>
                 <li><a href="">Calculator</a></li>
                 <li><a href="">Email</a></li>
@@ -36,30 +37,30 @@
 
         <img src="images/mamp.png" alt="mamp screenshot">
         <img src="images/mamp_w_name.png" alt="mamp screenshot with name">
-        <img src="images/test.php.png" alt="test.php screenshot">
+        <img src="images/testPHP.png" alt="test_php screenshot">
 
     </main>
 
 
 
-    <aside>
+  <aside>
         <h2>Weekly Class Exercises</h2>
         <h3>Week 2</h3>
         <ul>
-            <li><a href="var.php">var.php</a></li>
-            <li><a href="">var2.php</a></li>
-            <li><a href="">currency-logic.php</a></li>
-            <li><a href="">currency.php</a></li>
-            <li><a href="">heredoc.php</a></li>
+            <li><a href="weeks/week2/var.php">var.php</a></li>
+            <li><a href="weeks/week2/vars2.php">vars2.php</a></li>
+            <li><a href="weeks/week2/currency-logic.php">currency-logic.php</a></li>
+            <li><a href="weeks/week2/currency.php">currency.php</a></li>
+            <li><a href="weeks/week2/heredoc.php">heredoc.php</a></li>
         </ul>
 
         <h3>Week 3</h3>
         <ul>
-            <li><a href="">date.php</a></li>
-            <li><a href="">for-each.php</a></li>
-            <li><a href="">for-loop.php</a></li>
-            <li><a href="">if.php</a></li>
-            <li><a href="">switch.php</a></li>
+            <li><a href="weeks/week3/date.php">date.php</a></li>
+            <li><a href="weeks/week3/for-each.php">foreach.php</a></li>
+            <li><a href="weeks/week3/for-loop.php">forloop.php</a></li>
+            <li><a href="weeks/week3/if.php">if.php</a></li>
+            <li><a href="weeks/week3/switch.php">switch.php</a></li>
         </ul>
 
         <h3>Week 4</h3>
@@ -105,6 +106,7 @@
     </aside>
 
 
+
     </div>
 <!-- end wrapper -->
 
@@ -112,9 +114,9 @@
     <ul>
         <li>Copyright &copy;<script>document.write(new Date().getFullYear())</script> yBigford</li>
         <li>All Rights Reserved</li>
-        <li><a href="website/index.html">Web Design by yBigford</a></li>
-        <li><a id="html-checker" href="#">HTML Validation</a></li>
-        <li><a id="css-checker" href="#">CSS Validation</a></li>
+        <li><a href="website/index.php">Web Design by yBigford</a></li>
+        <li><a id="html-checker" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.ybigford.com%2Fit261%2F">HTML Validation</a></li>
+        <li><a id="css-checker" href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.ybigford.com%2Fit261%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">CSS Validation</a></li>
         </ul>
         
         <script>
