@@ -60,7 +60,7 @@ switch($today) {
     break;
 
     case 'Saturday' :
-    $coffee = '<h2>Friday is Our Green Tea Latte Day!</h2>';
+    $coffee = '<h2>Saturday is Our Green Tea Latte Day!</h2>';
     $pic = 'greentea.jpeg';
     $alt = 'Green Tea Latte';       
     $content = '<p>A <b>green tea latte</b> is simply a latte made with green tea instead of espresso. Traditional lattes are a blend of steamed milk and espresso, 
