@@ -15,7 +15,7 @@
         <nav>
             <ul>
                 <li><a href="website/daily.php">Switch</a></li>
-                <li><a href="">Troubleshoot</a></li>
+                <li><a href="weeks/week4/adder.php">Troubleshoot</a></li>
                 <li><a href="">Calculator</a></li>
                 <li><a href="">Email</a></li>
                 <li><a href="">Database</a></li>
