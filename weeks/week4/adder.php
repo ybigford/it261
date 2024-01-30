@@ -13,7 +13,7 @@
 <form action="">
 
 <label>Enter the first number:</label>
-<input type="number" name="Num1"><br>
+<input type="number" name="num1"><br>
 
 <label>Enter the second number:</label>
 <input type="number" name="num2"><br>
@@ -24,32 +24,26 @@
 
 
 
-
-
 <?php     //adder-wrong.php
 
-if (isset($_POST['num1'])){ 
-$_POST['num2'];
+if (isset($_POST['num1'])){
+    $num1 = $_POST['num1'];
+    $num2 = $_POST['num2'];
+    $myTotal = $num1 + $num2;
 
-
-
-$num1 = $_POST['num1'];
-$num2 = $_POST['num2'];
-$num1_int = intval($num1);
-$num2_int = intval($num2);
-$myTotal = $num1_int + $num2_int;
-
-
-echo '<h2>You added '. $num1_int .' and '.$num2_int.' </h2>';
-echo '<p style="color:red;"> and the answer is '.$myTotal.'!</p>';
-
-echo '<br>';
-echo'<p><a href="">Reset page</a></p>';
-
-
+   
+    
+    echo '
+    
+    <h2>You added '.$num1.' and '.$num2.'</h2>
+    <p style="color:red;"> and the answer is '.$myTotal.'!</p>
+    <p><a href="">Reset page</a></p>
+    
+    ';
 }
-
- 
+   
+    
+  
 ?>
 
 </body>
@@ -71,3 +65,5 @@ echo'<p><a href="">Reset page</a></p>';
 <!-- remove '; from closing html tag -->
 <!-- fix echo '<br>'; syntax -->
 <!-- change type of second and first numbers from text to number -->
+<!-- change uppercase $Num2 to lowercase $num2 -->
+<!-- use proper '..' for all variables -->
