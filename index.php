@@ -75,10 +75,11 @@
 
         <h3>Week 5</h3>
         <ul>
-            <li><a href="">currency1.php</a></li>
-            <li><a href="">currency2.php</a></li>
-            <li><a href="">currency3.php</a></li>
-            <li><a href="">null.php</a></li>
+            <li><a href="weeks/week5/currency1.php">currency1.php</a></li>
+            <li><a href="weeks/week5/currency2.php">currency2.php</a></li>
+            <li><a href="weeks/week5/currency3.php">currency3.php</a></li>
+            <li><a href="weeks/week5/currency4.php">currency3.php</a></li>
+            <li><a href="weeks/week5/null.php">null.php</a></li>
         </ul>
 
         <h3>Week 6</h3>
