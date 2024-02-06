@@ -1,0 +1,42 @@
+/* styles for my week 6 form, which will eventually be emailable */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: beige;
+}
+
+
+
+form {
+    width: 500px;
+    margin: 30px auto;
+}
+
+
+fieldset {
+
+    padding: 10px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input [type="text"],
+input [type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+

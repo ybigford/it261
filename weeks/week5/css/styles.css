@@ -13,6 +13,12 @@ body {
 }
 
 
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
 form {
     max-width: 400px;
     margin: 20px auto;
@@ -72,3 +78,5 @@ form ul {
     font-style: italic;
     text-align: center;
 }
+
+
