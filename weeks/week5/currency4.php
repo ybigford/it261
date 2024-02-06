@@ -105,7 +105,7 @@
 
       echo '
       <div class="box">
-      <h2>Hello '.$name.'</h2>
+      <h2 style="text-align:center;margin-bottom:10px;">Hello '.$name.'</h2>
       <p>You now have <b> $'.number_format($dollars, 2).' American dollars</b> and we will be emailing you at <b> '.$email.' </b> with your information, as well as depositing your funds at <b>
       '.$bank.' bank!</b></p>
 
@@ -118,7 +118,7 @@
         echo '
         <div class="box">
         
-        <h2> <b>I am NOT happy, because I have $'.number_format($dollars, 2).' American dollars</b> </h2>
+        <h2 style="color:blue;text-align:center;margin-bottom:10px;"> <b>I am NOT happy, because I have $'.number_format($dollars, 2).' American dollars</b> </h2>
 
        <iframe width="560" height="315" src="https://www.youtube.com/embed/l5aZJBLAu1E?si=LPTmwXtLwQArA_nB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   
@@ -131,7 +131,7 @@
         echo '
         <div class="box">
         
-        <h2> <b>I am REALLY happy, because I have $'.number_format($dollars, 2).' American dollars</b> </h2>
+        <h2 style="color:red;text-align:center;margin-bottom:10px;"> <b>I am REALLY happy, because I have $'.number_format($dollars, 2).' American dollars</b> </h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/O5APc0z49wg?si=YqCSg9hW9Ba7oO3m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   
         </div>
@@ -147,5 +147,14 @@
   } //end server request
 
 ?>
+
+
+<footer style="text-align:center;margin:20px;">
+    <ul>
+       
+        <li><a id="html-checker" href="">HTML Validation</a></li>
+        <li><a id="css-checker" href="">CSS Validation</a></li>
+        </ul>
+</footer>
 </body>
 </html>
