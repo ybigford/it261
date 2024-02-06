@@ -8,6 +8,11 @@ body {
     background: lavender;
 }
 
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 
 #wrapper {
     max-width: 1200px;
