@@ -1,4 +1,5 @@
-<?php   
+<?php  
+include('config.php'); 
 include('./includes/header.php');
 
 ?>
@@ -75,7 +76,7 @@ img {
 <div id="wrapper">
 
     <div id="hero">
-        <img src="images/drinkbanner.jpg" alt="three green androids">
+        <img src="images/drinkbanner.jpg" alt="2 glasses of whisky">
 
     </div>
     <!-- end hero -->
@@ -199,9 +200,6 @@ switch($today) {
 
 <main>
         <h2>Visit us and enjoy our special Drink of the Day!</h2>
-        <img class="right" src="images/yapa.jpeg" alt="">
-
-        <img src="images/mamp.png" alt="">
 
 
 <div id="wrapper2">  
