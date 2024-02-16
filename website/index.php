@@ -1,16 +1,37 @@
-<?php  
-include('config.php'); 
-include('./includes/header.php');
 
-?>
+
+
 
 
 <div id="wrapper">
 
-    <div id="hero">
-        <img src="images/androids.png" alt="three green androids">
+    <!-- <div id="hero"> -->
+<?php  
+include('config.php'); 
+include('./includes/header.php');
 
-    </div>
+
+
+// array
+$pics[0] = 'laptop.jpg'; 
+$pics[1] = 'androids.png';
+$pics[2] = 'code.jpg';
+$pics[3] = 'keyboard.jpg';
+$pics[4] = 'robot.jpg';
+
+$i = rand(0, 4);
+
+
+echo '<img src="images/'.$pics[$i].'" alt="'.$pics[$i].'" style="text-align:center;">';
+
+
+
+?>
+
+
+        <!-- <img src="images/androids.png" alt="three green androids"> -->
+<!-- 
+    </div> -->
     <!-- end hero -->
 
     <main>

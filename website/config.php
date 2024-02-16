@@ -48,8 +48,31 @@ $nav = array (
 );
 
 
-// My form's PHP
+function make_links($nav) {
+    $my_return = '';
+    
+    foreach($nav as $key => $volume) {
+        if(THIS_PAGE == $key) {
+    
+            $my_return .= '<li><a class="current" href=" '.$key.' ">'.$volume.'</a></li>';
+        
+        } else {
+    
+            $my_return .= '<li><a href=" '.$key.' ">'.$volume.'</a></li>';
+    
+        } //end else
+    
+    
+    } //end foreach
+    
+    return $my_return;
+    
+    } //end function
 
+
+
+
+// My form's PHP
 
 $wines = '';
 $wines_err = '';
