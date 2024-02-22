@@ -1,10 +1,10 @@
 <?php
 
-$teams['NFC West'] = 'nfcwe_NFL';
-$teams['Seattle Seahawks'] = 'seaha_Seattle';
-$teams['San Fransisco 49ers'] = '49ers_San Fransisco';
+$teams['NFC West'] = 'nfcwe_NFL, USA';
+$teams['Seattle Seahawks'] = 'seaha_Seattle, WA';
+$teams['San Fransisco 49ers'] = '49ers_San Fransisco, CA';
 $teams['Arizona Cardinals'] = 'cardi_Arizona';
-$teams['LA Rams'] = 'ramsl_Los Angeles';
+$teams['LA Rams'] = 'ramsl_Los Angeles, CA';
 
 
 ?>
