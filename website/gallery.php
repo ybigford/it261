@@ -1,10 +1,10 @@
 <?php
 
-$teams['NFC West'] = 'nfcwe_NFL, USA';
-$teams['Seattle Seahawks'] = 'seaha_Seattle, WA';
-$teams['San Fransisco 49ers'] = '49ers_San Fransisco, CA';
+$teams['NFC West'] = 'nfcwe_NFL';
+$teams['Seattle Seahawks'] = 'seaha_Seattle';
+$teams['San Fransisco 49ers'] = '49ers_San Fransisco';
 $teams['Arizona Cardinals'] = 'cardi_Arizona';
-$teams['LA Rams'] = 'ramsl_Los Angeles, CA';
+$teams['LA Rams'] = 'ramsl_Los Angeles';
 
 
 ?>
@@ -19,6 +19,12 @@ $teams['LA Rams'] = 'ramsl_Los Angeles, CA';
 
     <style>
 
+        body {
+            background-image: url("images/bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
       
         table {
             border: 1px solid red;
@@ -39,6 +45,8 @@ $teams['LA Rams'] = 'ramsl_Los Angeles, CA';
             border: 1px solid navy;
            
         }
+
+
 
     </style>
 </head>
