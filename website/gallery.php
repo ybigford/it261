@@ -27,6 +27,14 @@ $teams['LA Rams'] = 'ramsl_Los Angeles';
         }
 
 
+        li {
+            float: left;
+            list-style-type: none;
+            padding-right: 30px;
+            margin-bottom: 20px;
+        }
+
+
         td {
             border: 1px solid navy;
            
@@ -55,6 +63,10 @@ $teams['LA Rams'] = 'ramsl_Los Angeles';
 
 </table>
 
-    
+<ul>
+        <li>Copyright &copy;<script>document.write(new Date().getFullYear())</script> yBigford</li>
+        <li><a id="html-checker" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.ybigford.com%2Fit261%2Fwebsite%2Fgallery.php">HTML Validation</a></li>
+        <li><a id="css-checker" href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.ybigford.com%2Fit261%2Fwebsite%2Fgallery.php&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">CSS Validation</a></li>
+    </ul>
 </body>
 </html>
