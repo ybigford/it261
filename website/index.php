@@ -1,11 +1,4 @@
 
-
-
-
-
-<div id="wrapper">
-
-    <!-- <div id="hero"> -->
 <?php  
 include('config.php'); 
 include('./includes/header.php');
@@ -27,6 +20,13 @@ echo '<img src="images/'.$pics[$i].'" alt="'.$pics[$i].'" style="text-align:cent
 
 
 ?>
+
+
+
+<div id="wrapper">
+
+    <!-- <div id="hero"> -->
+
 
 
         <!-- <img src="images/androids.png" alt="three green androids"> -->

@@ -31,7 +31,7 @@ switch(THIS_PAGE){
         $body = 'contact inner';
         break;
 
-    case 'gellery.php' :
+    case 'gallery.php' :
         $title = 'Gallery Page of Our Website Project';
         $body = 'gallery inner';
         break;

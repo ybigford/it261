@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $title;  ?></title>
+    <title><?php echo $title;?></title>
     <link href="css/styles.css" type="text/css" rel="stylesheet">
     <style>
 
@@ -69,6 +69,28 @@ img {
     text-align: center;
 }
 
+#gallerywrapper {
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+
+}
+
+
+table {
+    border: 1px solid red;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+     
+
+td {
+    border: 1px solid navy;
+           
+}
 
 </style>
 </head>
