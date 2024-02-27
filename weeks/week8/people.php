@@ -46,8 +46,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 
     echo '
 
-    <h2>Information about: '.$row['first_name'].'</h2>
-    <h2>Information about: '.$row['last_name'].'</h2>
+    <h2>Information about: '.$row['first_name'].' '.$row['last_name'].'</h2>
 
     <ul>
     <li>Email: '.$row['email'].'</li>
@@ -55,7 +54,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     
     </ul>
     
-    <p>For more information about  '.$row['email'].', click <a href="people-view.php?id=  '.$row['people_id'].' "></a></p>
+    <p>For more information about  '.$row['firs_name'].', click<a href="people-view.php?id='.$row['people_id'].'">here</a></p>
     
     ';
 

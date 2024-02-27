@@ -4,5 +4,5 @@
 
 define('DB_NAME', 'ybigford_winter2024');
 define('DB_USER', 'ybigford');
-define('DB_PASSWORD', 'Thammasat36!');
+define('DB_PASSWORD', '     ');
 define('DB_HOST', 'mysql.ybigford.com');
