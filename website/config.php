@@ -21,7 +21,12 @@ switch(THIS_PAGE){
         $body = 'daily inner';
         break;
 
-    case 'project.php' :
+    case 'dessert.php' :
+        $title = 'Project Page of Our Website Project';
+        $body = 'project inner';
+        break;
+
+    case 'dessert-view.php' :
         $title = 'Project Page of Our Website Project';
         $body = 'project inner';
         break;
@@ -42,7 +47,7 @@ $nav = array (
     'index.php' => 'Home',
     'about.php' => 'About',
     'daily.php' => 'Daily',
-    'project.php' => 'Project',
+    'dessert.php' => 'Dessert',
     'contact.php' => 'Contact',
     'gallery.php' => 'Gallery'
 );
@@ -245,3 +250,31 @@ $_POST['privacy'])) {
 
 
 } //closing server request method
+
+ob_start();  // prevents header errors before reading the whole page!
+define('DEBUG', 'TRUE');  // We want to see our errors
+
+include('credentials.php');
+
+ 
+
+ 
+
+ 
+
+ 
+
+function myError($myFile, $myLine, $errorMsg)
+{
+if(defined('DEBUG') && DEBUG)
+{
+ echo 'Error in file: <b> '.$myFile.' </b> on line: <b> '.$myLine.' </b>';
+      echo 'Error message: <b> '.$errorMsg.'</b>';
+      die();
+  }  else {
+      echo ' Houston, we have a problem!';
+      die();
+  }
+    
+    
+}

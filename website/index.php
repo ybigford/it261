@@ -15,24 +15,20 @@ $pics[4] = 'robot.jpg';
 $i = rand(0, 4);
 
 
-echo '<img src="images/'.$pics[$i].'" alt="'.$pics[$i].'" style="text-align:center;">';
-
-
-
 ?>
 
 
 
 <div id="wrapper">
 
-    <!-- <div id="hero"> -->
 
+    <div id="hero"> 
 
-
-        <!-- <img src="images/androids.png" alt="three green androids"> -->
-<!-- 
-    </div> -->
+    <?php   echo '<img src="images/'.$pics[$i].'" alt="'.$pics[$i].'" style="text-align:center;">'; ?>
+       
+    </div> 
     <!-- end hero -->
+    
 
     <main>
         <h1>Welcome to Web App Programming Class</h1>
