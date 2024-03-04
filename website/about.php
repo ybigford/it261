@@ -13,7 +13,7 @@ include('./includes/header.php');
 
 <div id="gallerywrapper">
 
-<img src="images/table.png" alt="dessert table">
+<img src="images/dessert_table.png" alt="dessert table">
 
 </div>
 
